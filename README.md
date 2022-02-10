@@ -16,7 +16,7 @@
 
 01. `git reset HEAD "파일명"` : add 취소, 파일명 없어도 됨.
 02. `git reset --soft HEAD^` : add 상태로 commit 취소.
-03. `git reset HEAD^` : add, commit 둘다 취소.
+03. `git reset --mixed HEAD^` : add, commit 둘다 취소.
 04. `git reset HEAD~2` : 마지막 2개의 commit 취소.
 05. `git reset --hard HEAD^` : add, commit 둘다 취소하고 로컬 저장소에서 삭제.
 06. `git commit --amend` : commit 메시지 변경.
