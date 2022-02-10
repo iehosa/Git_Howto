@@ -23,6 +23,12 @@
 * `git reset --hard HEAD^` : add, commit 둘다 취소하고 로컬 저장소에서 삭제.
 * `git commit --amend` : commit 메시지 변경.
 
+## Git Branch Command
+
+* `git branch -a` : 브랜치 목록 확인.
+* `git branch -d "브랜치명"` : 로컬 브랜치 삭제.
+* `git push origin --delete "브랜치명"` : 원격 저장소에 올라가 있는 브랜치 삭제.ㅣ
+
 ## Git Error 01
 
 ```
