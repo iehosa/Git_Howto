@@ -10,7 +10,7 @@
 08. `git remote add origin https://github.com/iehosa/"repo NAME".git`: 원격 저장소로 연결.
 09. `git remote -v` : 원격 저장소 목록
 10. `git push -u origin main` : push는 로컬 저장소의 변동사항을 원격 저장소로 업로드.
-11. `git pull origin master` : pull은 원격 저장소의 변경사항은 로컬 저장소로 임포트.
+11. `git pull origin main` : pull은 원격 저장소의 변경사항은 로컬 저장소로 임포트.
 
 # Git Modify Commnd
 
