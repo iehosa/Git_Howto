@@ -22,3 +22,16 @@
 * `git reset HEAD~2` : 마지막 2개의 commit 취소.
 * `git reset --hard HEAD^` : add, commit 둘다 취소하고 로컬 저장소에서 삭제.
 * `git commit --amend` : commit 메시지 변경.
+
+## Git Error 01
+
+```
+ ! [rejected] master -> master (non-fast-forward)
+error: failed to push some refs to 'https://github.com/devAon/SOPT-SERVER-nodejs.git'
+hint: Updates were rejected because the tip of your current branch is behind
+hint: its remote counterpart. Integrate the remote changes (e.g.
+hint: 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details. 
+```
+- pull 한 다음 push 진행한다.
+- `git push -u origin +main` : +는 강제 푸쉬하는 것인데, 강제 푸쉬하게되면 모든 작업이 다 사라지고 커밋된 파일만 남는 상황이 발생할 수도 있기 때문에 하지 않는 것이 좋다.
